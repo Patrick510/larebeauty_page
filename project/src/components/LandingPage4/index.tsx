@@ -23,7 +23,7 @@ export default function LandingPage() {
         </nav>
       </header>
       <main className="flex-1">
-        <section id="home" className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-pink-600 relative overflow-hidden">
+        <section id="home" className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-pink-600 relative overflow-hidden flex justify-center">
           <div className="absolute inset-0">
             <div className="absolute top-1/4 left-1/4 w-20 h-20 bg-yellow-400 rounded-full opacity-20"></div>
             <div className="absolute top-3/4 right-1/4 w-32 h-32 bg-yellow-400 rounded-full opacity-20"></div>
@@ -47,7 +47,7 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        <section id="sobre" className="w-full py-12 md:py-24 lg:py-32">
+        <section id="sobre" className="w-full py-12 md:py-24 lg:py-32 flex justify-center">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -59,7 +59,7 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-        <section id="contato" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
+        <section id="contato" className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 flex justify-center">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
