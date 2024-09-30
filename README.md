@@ -1,3 +1,5 @@
+# Vou criar um portifolio para a loja LareBeauty
+
 echo "# larebeauty_page" >> README.md
 git init
 git add README.md
